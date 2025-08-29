@@ -1,0 +1,55 @@
+{
+  "prompts": [
+    {
+      "id": 1,
+      "title": "Home Page UI",
+      "description": "Design a modern, engaging, and responsive Home Page UI for a laundry and tailoring service application, strictly following the Ant Design (antd) design system.",
+      "content": "Create a landing page to introduce the laundry and tailoring service. Use an antd `Carousel` or `Card` components to showcase services (e.g., Laundry, Tailoring, Express Delivery). Include a prominent antd `Button` (type='primary') for 'Get Started' that links to signup/login. Add an antd `Typography.Title` for a catchy headline (e.g., 'Fast and Reliable Laundry & Tailoring Services'). Include placeholder images or icons (using antd `Image` or `@ant-design/icons`) for visual appeal. Use antd `Row` and `Col` for a responsive grid layout. Ensure the design adapts to desktop (1920x1080) and mobile (375x667) screens. Apply antd’s default colors (Primary: #1890ff, Background: #f0f2f5) and fonts (Roboto or -apple-system). Use antd’s animations for carousel transitions and button clicks. Ensure WCAG 2.1 accessibility compliance. Include a placeholder logo in the antd `Header`. Export in Figma or PNG format."
+    },
+    {
+      "id": 2,
+      "title": "Signup Page UI",
+      "description": "Design a clean and responsive Signup Page UI for user account creation, following the Ant Design (antd) design system, based on the 'createAccount' User Story.",
+      "content": "Create a signup page using an antd `Form` component. Include fields for Name, Email, Phone, and Address (using antd `Input` and `Form.Item`). Add an antd `Button` (type='primary') for form submission. Implement form validation (required fields, valid email format) using antd `Form` rules. Include a link (antd `Typography.Link`) to redirect to the login page. Ensure the form is centered and responsive for desktop (1920x1080) and mobile (375x667) screens. Use antd’s default colors (Primary: #1890ff, Background: #f0f2f5) and fonts (Roboto or -apple-system). Apply antd’s animations for button clicks and form feedback. Ensure WCAG 2.1 accessibility compliance. Include a placeholder logo in the antd `Header`. Export in Figma or PNG format."
+    },
+    {
+      "id": 3,
+      "title": "Login Page UI",
+      "description": "Design a clean and responsive Login Page UI for user authentication, following the Ant Design (antd) design system, based on the 'loginSignin' User Story.",
+      "content": "Create a login page using an antd `Form` component. Include fields for Email and Password (using antd `Input` and `Input.Password`). Add an antd `Button` (type='primary') for login submission. Include links (antd `Typography.Link`) for password recovery and signup redirection. Ensure the form is centered and responsive for desktop (1920x1080) and mobile (375x667) screens. Use antd’s default colors (Primary: #1890ff, Background: #f0f2f5) and fonts (Roboto or -apple-system). Apply antd’s animations for button clicks and form feedback. Ensure WCAG 2.1 accessibility compliance. Include a placeholder logo in the antd `Header`. Export in Figma or PNG format."
+    },
+    {
+      "id": 4,
+      "title": "Order Creation Page UI",
+      "description": "Design a responsive Order Creation Page UI within the user dashboard, following the Ant Design (antd) design system, based on the 'createOrder' User Story.",
+      "content": "Create an order creation page within the user dashboard using an antd `Form` component. Include an antd `Select` for choosing service type (e.g., Laundry, Tailoring). Add an antd `InputNumber` for number of items and an antd `Input.TextArea` for description. Include an antd `Radio.Group` for selecting pickup/delivery method (e.g., Pickup, Delivery). Add an antd `Button` (type='primary') to submit the order. Show a confirmation message using antd `message` component after submission. Ensure the form is responsive for desktop (1920x1080) and mobile (375x667) screens, integrated into an antd `Layout.Content`. Use antd’s default colors (Primary: #1890ff, Background: #f0f2f5) and fonts (Roboto or -apple-system). Apply antd’s animations for form interactions. Ensure WCAG 2.1 accessibility compliance. Export in Figma or PNG format."
+    },
+    {
+      "id": 5,
+      "title": "Order Status Dashboard UI",
+      "description": "Design a responsive User Dashboard UI for displaying order status, following the Ant Design (antd) design system, based on the 'orderStatus' User Story.",
+      "content": "Create a user dashboard with an antd `Table` or `List` component to display the user’s orders. Show columns/fields: Service Type, Description, Status (e.g., Pending, In Progress, Completed), Pickup/Delivery Time. Use antd `Tag` for status colors (e.g., blue for Pending, green for Completed) and antd `Spin` for real-time loading states. Include a search bar (antd `Input.Search`) for filtering orders. Ensure the dashboard is responsive for desktop (1920x1080) and mobile (375x667) screens, using antd `Layout.Content`. Use antd’s default colors (Primary: #1890ff, Background: #f0f2f5) and fonts (Roboto or -apple-system). Apply antd’s animations for table/list interactions. Ensure WCAG 2.1 accessibility compliance. Include a placeholder logo in the antd `Header`. Export in Figma or PNG format."
+    },
+    {
+      "id": 6,
+      "title": "Feedback Page UI",
+      "description": "Design a clean and responsive Feedback Page UI for user feedback submission, following the Ant Design (antd) design system.",
+      "content": "Create a feedback submission page using an antd `Form` component. Include an antd `Input.TextArea` for feedback text and an antd `Rate` component for star ratings (optional). Add an antd `Button` (type='primary') to submit feedback. Show a confirmation message using antd `message` component after submission. Ensure the form is centered and responsive for desktop (1920x1080) and mobile (375x667) screens. Use antd’s default colors (Primary: #1890ff, Background: #f0f2f5) and fonts (Roboto or -apple-system). Apply antd’s animations for form interactions and confirmation messages. Ensure WCAG 2.1 accessibility compliance. Include a placeholder logo in the antd `Header`. Export in Figma or PNG format."
+    }
+  ],
+  "design_guidelines": {
+    "style": "Strictly adhere to Ant Design’s design system, using its component library (e.g., Form, Input, Select, Table, List, Button, Carousel, Rate, message).",
+    "color_palette": "Use antd’s default colors (Primary: #1890ff, Success: #52c41a, Error: #ff4d4f, Warning: #faad14) with a neutral background (#f0f2f5).",
+    "typography": "Use antd’s recommended fonts (e.g., -apple-system, BlinkMacSystemFont, ‘Segoe UI’, Roboto) with antd’s typography hierarchy (Title, Text, Link).",
+    "icons": "Use antd’s `Icon` components (e.g., UserOutlined, LockOutlined, SearchOutlined, StarOutlined) from `@ant-design/icons`.",
+    "layout": "Use antd’s `Layout` component with `Header`, `Content`, and optional `Footer`. Use antd `Row` and `Col` for grid-based layouts.",
+    "responsiveness": "Follow antd’s responsive design guidelines, ensuring components adapt to desktop (1920x1080) and mobile (375x667) screens using antd’s `Grid` system.",
+    "interactivity": "Apply antd’s default animations for buttons, forms, carousels, and table/list interactions. Use antd `Spin` for loading states and `message` for notifications.",
+    "accessibility": "Ensure compliance with antd’s accessibility features (e.g., keyboard navigation, ARIA labels) and WCAG 2.1 contrast standards.",
+    "branding": "Include a placeholder logo and app name in the antd `Header`, customizable later."
+  },
+  "output": {
+    "format": "Provide high-fidelity UI mockups for each page (Home, Signup, Login, Order Creation, Order Status Dashboard, Feedback). Include desktop and mobile views, following antd’s responsive design. Export in Figma or PNG format.",
+    "inspiration": "Draw inspiration from Ant Design’s official component library examples (e.g., antd Pro, antd-based user dashboards) and modern consumer apps like Uber or Airbnb, adapted to antd’s style."
+  }
+}
