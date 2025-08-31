@@ -9,7 +9,6 @@ const UiProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
       <ColorsProvider>
         <AntDProvider>{children}</AntDProvider>
       </ColorsProvider>
-      ?
     </DarkLightProvider>
   )
 }
